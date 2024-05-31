@@ -1,18 +1,24 @@
 # Next.js & NextUI Template
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
-
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
+This project is a template that showcases a secure and performant Next.js application integrated with NextAuth.js and NextUI, demonstrating knowledge in forms, API integration, design, themes, SSR, and authentication.
 
 ## Technologies Used
 
 - [Next.js 14](https://nextjs.org/docs/getting-started)
+- [NextAuth.js](https://next-auth.js.org)
 - [NextUI v2](https://nextui.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Tailwind Variants](https://tailwind-variants.org)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
+
+## Features
+
+- **Secure Authentication**: User sessions and cookies are managed on the server-side to ensure security.
+- **API Integration**: Seamless integration with backend APIs, with endpoints protected from public exposure.
+- **Server-Side Rendering (SSR)**: Enhanced performance and SEO with SSR.
+- **Type Safety**: Utilizes TypeScript for robust type checking and improved developer experience.
+- **Form Validation**: Comprehensive form validation using TypeScript 
 
 ## How to Use
 
