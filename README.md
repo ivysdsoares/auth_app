@@ -1,6 +1,6 @@
-# Next.js & NextUI Template
+# Authentication Platform Demo
 
-This project is a template that showcases a secure and performant Next.js application integrated with NextAuth.js and NextUI, demonstrating knowledge in forms, API integration, design, themes, SSR, and authentication.
+This project showcases a secure and performant Next.js application integrated with NextAuth.js and NextUI, demonstrating knowledge in forms, API integration, design, themes, SSR, and authentication.
 
 ## Technologies Used
 
@@ -22,37 +22,38 @@ This project is a template that showcases a secure and performant Next.js applic
 
 ## How to Use
 
-### Use the template with create-next-app
+1. **Clone the Repository**: Begin by cloning this repository to your local machine using the following command:
 
-To create a new project based on this template using `create-next-app`, run the following command:
+git clone <repository_url>
 
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
+2. **Install Dependencies**: Navigate into the project directory and install the necessary dependencies using npm:
+   
 ```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
+cd <project_directory>
 npm install
+
 ```
 
-### Run the development server
 
-```bash
+
+
+
+3. **Configure Environment Variables**: Set up any required environment variables. Check if there's a `.env.example` file provided. If so, duplicate it and rename it to `.env` then fill in the necessary details.
+
+4. **Build the application**: Once the dependencies are installed and environment variables are configured, build the application:
+```
 npm run dev
+
+````
+5. **Start the server**: As the build is complete you can run the server locally by using:
 ```
+npm start
 
-### Setup pnpm (optional)
+````
+6. **Enjoy**: Hope you appreciate my app :) 
 
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
 
-```bash
-public-hoist-pattern[]=*@nextui-org/*
-```
 
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
 
 ## License
 
