@@ -24,31 +24,29 @@ This project showcases a secure and performant Next.js application integrated wi
 
 1. **Clone the Repository**: Begin by cloning this repository to your local machine using the following command:
 
+   
+```
 git clone <repository_url>
+```
 
 2. **Install Dependencies**: Navigate into the project directory and install the necessary dependencies using npm:
    
 ```
 cd <project_directory>
 npm install
-
 ```
-
-
-
-
 
 3. **Configure Environment Variables**: Set up any required environment variables. Check if there's a `.env.example` file provided. If so, duplicate it and rename it to `.env` then fill in the necessary details.
 
 4. **Build the application**: Once the dependencies are installed and environment variables are configured, build the application:
+   
 ```
 npm run dev
-
 ````
 5. **Start the server**: As the build is complete you can run the server locally by using:
+   
 ```
 npm start
-
 ````
 6. **Enjoy**: Hope you appreciate my app :) 
 
