@@ -32,7 +32,7 @@ export default async function Dashboard() {
   });
 
   return (
-    <div className="flex-col flex items-stretch max-w-[100vw]  w-[640px] py-4 px-0 xs:px-4 ">
+    <div className="flex-col flex items-stretch max-w-[100vw] w-[640px] px-0 xs:px-4 ">
       <h1 className="text-2xl font-semibold px-4 sm:px-0">
         Minhas informações
       </h1>
@@ -42,7 +42,7 @@ export default async function Dashboard() {
           ...data.logged_user,
           email_verified_at: mockVerificationDate(
             data.logged_user.created_at,
-            0.5,
+            0.5
           ),
         }}
       />
